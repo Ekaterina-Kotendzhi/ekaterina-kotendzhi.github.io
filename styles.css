@@ -136,6 +136,7 @@ p { color: var(--muted); }
 .project-card__footer { display: flex; justify-content: space-between; gap: 18px; align-items: flex-end; margin-top: auto; padding-top: 22px; }
 .project-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 12px; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; white-space: nowrap; }
+.project-links .text-link { white-space: normal; text-align: right; }
 .text-link::after { content: "→"; color: var(--blue); }
 
 .skills-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
@@ -214,6 +215,7 @@ p { color: var(--muted); }
   .project-card { min-height: auto; padding: 24px; }
   .project-card__footer { display: grid; gap: 16px; }
   .project-links { justify-content: flex-start; }
+  .project-links .text-link { text-align: left; }
   .site-footer__grid { grid-template-columns: 1fr; }
   .footer-links { justify-content: flex-start; }
 }
